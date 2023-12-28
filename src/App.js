@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+import Counter from './components/Counter/Counter';
+import {Route, Routes, BrowserRouter} from 'react-router-dom'
+import Login from './components/Login/Login';
+import Header from './components/Header/Header';
+import Modal from './components/Modal/Modal';
+import Todo from './components/Todo/Todo';
+import Giphy from './components/Giphy/Giphy';
+import Kinopoisk from './components/Kinopoisk/Kinopoisk';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Header/>
+            <Routes>
+                <Route path='/' element={<Counter/>} />
+                <Route path='/login' element={<Login/>} />
+                <Route path='/modal' element={<Modal/>} />
+                <Route path='/todo' element={<Todo/>} />
+                <Route path='/giphy' element={<Giphy/>} />
+                <Route path='/kinopoisk' element={<Kinopoisk/>} />
+            </Routes>
+        </BrowserRouter>
+    );
+};
 
 export default App;

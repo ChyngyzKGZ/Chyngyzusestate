@@ -1,0 +1,134 @@
+.header {
+    background-image: url('https://htmlbook.ru/files/images/layout2/6-05.png');
+    border: 1px solid #000000;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header h2 {
+    font-size: 50px;
+    color: black;
+}
+
+body {
+    margin-top: 80px;
+}
+
+.counter {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 30px;
+    background-color: rgba(255, 127, 80, .5);
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 127, 80, .2);
+    transition: all .1s ease-out;
+    display: inline-block;
+}
+.counter:hover {
+    background-color: rgba(255, 127, 80, 1);
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+.login {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 30px;
+    background-color: rgba(255, 127, 80, .5);
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 127, 80, .2);
+    transition: all .1s ease-out;
+    display: inline-block;
+}
+.login:hover {
+    background-color: rgba(255, 127, 80, 1);
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+.modal {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 30px;
+    background-color: rgba(255, 127, 80, .5);
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 127, 80, .2);
+    transition: all .1s ease-out;
+    display: inline-block;
+}
+.modal:hover {
+    background-color: rgba(255, 127, 80, 1);
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+.todo {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 30px;
+    background-color: rgba(255, 127, 80, .5);
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 127, 80, .2);
+    transition: all .1s ease-out;
+    display: inline-block;
+}
+.todo:hover {
+    background-color: rgba(255, 127, 80, 1);
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+.giphy {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 30px;
+    background-color: rgba(255, 127, 80, .5);
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 127, 80, .2);
+    transition: all .1s ease-out;
+    display: inline-block;
+}
+.giphy:hover {
+    background-color: rgba(255, 127, 80, 1);
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+.kinopoisk {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 30px;
+    background-color: rgba(255, 127, 80, .5);
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(255, 127, 80, .2);
+    transition: all .1s ease-out;
+    display: inline-block;
+}
+.kinopoisk:hover {
+    background-color: rgba(255, 127, 80, 1);
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}

@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    width: 100%; /* Ширина 100%, чтобы занять всю доступную ширину */
+    max-width: 600px; /* Максимальная ширина вашей карточки, можно настроить по вашему вкусу */
+    margin: 0 auto; /* Центрирование карточки на экране */
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ширина 100%, чтобы занять всю доступную ширину */
+}
+
+p {
+    font-size: 18px;
+    color: black;
+}
+
+.done {
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+.done:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.edit {
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+.edit:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.delete {
+    border-radius: 10%;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+.delete:hover {
+    background-color: aqua;
+    color: black;
+}
+

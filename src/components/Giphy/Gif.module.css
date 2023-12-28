@@ -1,0 +1,25 @@
+/* .gif {
+    background-image: url(https://img.badfon.ru/wallpaper/big/8/b4/tekstury-oboi-siniy-seryy-fon.jpg);
+} */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* или другое значение в зависимости от ваших предпочтений */
+    margin-bottom: 20px;
+}
+
+.col-3 {
+    width: calc(25% - 10px); /* Учитывайте margin между элементами, если есть */
+    margin-bottom: 20px; /* Регулируйте величину отступа, если нужно */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row iframe {
+    border-radius: 5%;
+    border: 2px solid #000000;
+}

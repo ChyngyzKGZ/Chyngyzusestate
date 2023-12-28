@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.kino {
+/* .kino {
     background-image: url('https://www.rabstol.net/uploads/gallery/main/85/rabstol_net_iron_man_3_06.jpg');
     background-attachment: fixed;
     min-height: 100vh;
@@ -15,7 +15,7 @@
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 20px;
-}
+} */
 
 .container{
     width: 80%;
@@ -29,10 +29,6 @@
 header {
     background-color: gainsboro;
     padding: 30px;
-}
-
-.wrap {
-    display: flex;
 }
 
 .row {
